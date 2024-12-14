@@ -1,0 +1,60 @@
+.education-section {
+  margin-top: 4rem; /* mt-16 */
+}
+
+.education-heading {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: bold; /* font-bold */
+  text-align: center; /* text-center */
+  margin-bottom: 2rem; /* mb-8 */
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* space-y-6 */
+}
+
+.education-item {
+  display: flex;
+  align-items: center; /* items-center */
+  gap: 1.5rem; /* gap-6 */
+  padding: 1rem; /* p-4 */
+  background-color: #111111; /* bg-gray-800/30 */
+  border-radius: 0.5rem; /* rounded-lg */
+}
+
+.education-logo {
+  width: 4rem; /* w-16 */
+  height: 4rem; /* h-16 */
+  object-fit: contain; /* object-contain */
+}
+
+.education-details {
+  flex-grow: 1; /* flex-grow */
+}
+
+.education-school {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 600; /* font-semibold */
+  color: white; /* text-white */
+}
+
+.education-school-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease; /* transition-colors */
+}
+
+.education-school-link:hover {
+  color: #31929A; /* hover:text-[#31929A] */
+}
+
+.education-degree {
+  color: #9CA3AF; /* text-gray-400 */
+}
+
+.education-years {
+  color: #6B7280; /* text-gray-500 */
+  font-size: 0.875rem; /* text-sm */
+}
