@@ -1,0 +1,46 @@
+.post-snippet {
+  margin-bottom: 1rem;
+}
+
+.post-snippet h3 {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: #31929A;
+  text-decoration: none;
+}
+.card {
+  padding: 20px;
+  border: 1px solid #27272a;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.projekt p,
+.projekt h2 {
+  color: white;
+}
+
+.projekt h2 {
+  text-align: center;
+}
+
+.projekt img {
+  width: -moz-available;
+  width: -webkit-fill-available;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+footer {
+  max-width: 60rem;
+  padding-top: 1rem;
+  margin: 0 auto 2rem;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  border-top: 1px solid #313131;
+  margin-top: 5rem;
+}
