@@ -1,0 +1,90 @@
+.site-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.site-nav {
+  display: flex;
+  max-width: 80rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-family: var(--font-mono);
+}
+
+.site-nav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.site-nav .logo {
+  font-weight: bold;
+  padding-left: 0;
+}
+
+.main-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 61rem) {
+  .site-nav,
+  .main-menu {
+    flex-direction: column;
+  }
+
+  .site-nav a {
+    padding: 0.5rem;
+    padding-left: 0;
+  }
+}
+.highschool-logo {
+            width: 60px;
+            height: 60px;
+        }
+.education-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .education-header {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .university-info {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+        }
+
+        .university-logo {
+            width: 68px;
+            height: 68px;
+        }
+
+        .university-details {
+            margin-left: 15px;
+        }
+
+        .university-name {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .degree {
+            font-size: 16px;
+            color: #cccccc;
+        }
+
+        .years {
+            margin-left: auto;
+            color: #888888;
+            font-size: 18px;
+        }
